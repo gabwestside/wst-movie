@@ -1,4 +1,5 @@
-import './styles.css';
+import { Link } from "react-router-dom";
+import "./styles.css";
 
 function Form() {
   const movie = {
@@ -12,7 +13,11 @@ function Form() {
 
   return (
     <div className="wstmovie-form-container">
-      <img className="wstmovie-movie-card-image" src={movie.image} alt={movie.title} />
+      <img
+        className="wstmovie-movie-card-image"
+        src={movie.image}
+        alt={movie.title}
+      />
       <div className="wstmovie-card-bottom-container">
         <h3>{movie.title}</h3>
         <form className="wstmovie-form">
@@ -36,7 +41,12 @@ function Form() {
             </button>
           </div>
         </form>
-        <button className="btn btn-primary wstmovie-btn mt-3">Cancelar</button>
+
+        <Link to="/">
+          <button className="btn btn-primary wstmovie-btn mt-3">
+            Cancelar
+          </button>
+        </Link>
       </div>
     </div>
   );
