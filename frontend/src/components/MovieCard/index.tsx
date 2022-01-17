@@ -18,7 +18,7 @@ function MovieCard( { movie } : Props) {
       />
       <div className="wstmovie-card-bottom-container">
         <h3>{movie.title}</h3>
-        <MovieScore />
+        <MovieScore count={movie.count} score={movie.score}/>
 
         <Link to={`/form/${movie.id}`}>
           <div className="btn btn-primary wstmovie-btn">Avaliar</div>
