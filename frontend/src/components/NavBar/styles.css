@@ -1,41 +1,44 @@
 header {
-    height: 60px;
-    background-color: var(--color-primary);
-    display: flex;
-    align-items: center;
+  height: 60px;
+  background-color: var(--color-primary);
+  display: flex;
+  align-items: center;
 }
 
 .wstmovie-nav-content h1 {
-    font-size: 24px;
-    margin: 0;
-    font-weight: 700;
-    transition: .5s;
-    cursor: pointer;
+  font-size: 24px;
+  margin: 0;
+  font-weight: 700;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+a {
+    text-decoration: none;
 }
 
 .wstmovie-nav-content {
-    display: flex;
-    justify-content: space-between;
-    color: #fff;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
 }
 
 .wstmovie-contact-container {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .wstmovie-contact-link {
-    margin: 0 0 0 10px;
-    font-size: 12px;
-    color: #fff;
-    text-decoration: none;
-    transition: .5s;
+  margin: 0 0 0 10px;
+  font-size: 12px;
+  color: #fff;
+  transition: 0.5s;
 }
 
 .wstmovie-nav-content h1:hover {
-    color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .wstmovie-contact-link:hover {
-    color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.5);
 }
