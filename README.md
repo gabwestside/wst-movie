@@ -1,4 +1,4 @@
-# WestsideMovieCatalog
+# Westside Movie Catalog
 A web application with movie catalog api
 
 # About the project
