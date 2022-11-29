@@ -1,5 +1,5 @@
 # Westside Movie Catalog
-A web application with movie catalog api
+A web application with movie catalog api made end to end application 
 
 # About the project
 
@@ -10,7 +10,6 @@ Westside Movie Catalog é uma aplicação full stack web desenvolvida na **3a Se
 A aplicação consiste em uma listagem de filmes com a atualização de notas para cada filme, no estilo IMDb de catalagos com notas.
 
 ## Layout
-
 <!-- ![Westside Catalog Movie Listing Page](https://user-images.githubusercontent.com/60760967/152717835-4da0ee1b-c448-48f8-b0f2-e48751df9f2a.png) -->
 <!-- ![Westside Catalog Movie Form Page](https://user-images.githubusercontent.com/60760967/152718311-889e58d1-e269-4227-8975-208ef025725e.png) -->
 <div align="center">
